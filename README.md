@@ -94,7 +94,7 @@ Scalable and maintainable design
 
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/online-course-crm.git
+git clone https://github.com/vishal963cmd/online-course-crm.git
 cd online-course-crm
 
 2️⃣ Configure Database
@@ -103,7 +103,7 @@ Update application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/online_course_crm
 spring.datasource.username=root
-spring.datasource.password=your_password
+spring.datasource.password=*******
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
