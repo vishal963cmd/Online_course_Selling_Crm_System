@@ -1,0 +1,308 @@
+/* Body styling */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+   
+ }
+/* Header styling */
+.header_design {
+    padding: 15px 0;
+}
+
+/* Navbar brand styling */
+.navbar-brand 
+{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Dropdown button styling */
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+/* Login container styling */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Form input fields styling */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Login button styling */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Forgot password link */
+.login-container .text-center a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-container .text-center a:hover {
+    text-decoration: underline;
+}
+
+
+
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Inter', sans-serif;
+     }
+
+/* Header Styling (to match the dark bar) */
+.header_design {
+    /* The dark blue/black color from your screenshots */
+    background-color: #212529 !important; 
+    border-bottom: 2px solid #0d6efd; /* Small primary colored line */
+}
+
+/* Navbar Styling (to match the light navigation bar) */
+.navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e9ecef; /* Subtle divider */
+}
+
+/* Form Card Styling */
+.card {
+    border-radius: 1rem;
+    border: 1px solid #dee2e6;
+    background-color: #f8f9fa; /* Light background for the form area */
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.custom-card-title {
+    color: #343a40; /* Darker text for the title */
+    font-weight: 600;
+}
+
+/* Custom Button Styling */
+.custom-btn {
+    background-color: #0d6efd; /* Bootstrap Blue */
+    border-color: #0d6efd;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.custom-btn:hover {
+    background-color: #0b5ed7; /* Slightly darker blue on hover */
+    border-color: #0b5ed7;
+    transform: translateY(-1px);
+}
+
+/* Input field focus glow */
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+#ss{
+	background-image: url("back.png");
+	background-color: red;
+	
+}
+
+body {
+        /* A subtle gradient background for the whole page */
+        background: linear-gradient(135deg, #f0f2f5 0%, #e0e5ec 100%);
+        min-height: 100vh;
+        display: flex; /* Ensures content centers vertically */
+        align-items: center; /* Centers content vertically */
+        justify-content: center; /* Centers content horizontally */
+    }
+
+    .card {
+        border: none; /* Remove default card border */
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Stronger, softer shadow */
+    }
+
+    .form-control-lg {
+        border-radius: 0.5rem; /* Slightly more rounded corners for inputs */
+        padding: 0.75rem 1.25rem; /* More padding for larger touch targets */
+        border: 1px solid #ced4da; /* Default border */
+        transition: all 0.2s ease-in-out;
+    }
+
+    .form-control-lg:focus {
+        border-color: #86b7fe;
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+        outline: none;
+    }
+
+    .form-label {
+        color: #343a40; /* Darker label text */
+        font-size: 0.95rem; /* Slightly smaller label font */
+    }
+
+    .custom-register-btn {
+        background-color: #007bff; /* Primary blue */
+        border-color: #007bff;
+        border-radius: 0.5rem; /* Rounded button */
+        padding: 0.75rem 1.5rem;
+        font-size: 1.1rem;
+        transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    }
+
+    .custom-register-btn:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+        border-color: #0056b3;
+        transform: translateY(-2px); /* Slight lift effect */
+        box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* Subtle shadow on hover */
+    }
+    
+    /* Smooth Zoom Animation */
+@keyframes zoomInAnim {
+  from {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  animation: zoomInAnim 0.35s ease-out;
+}
+
+/* Modal Content Styling */
+.modal-content {
+  background: #ffffff;
+  border-radius: 14px !important;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Glow Hover Effect on Buttons */
+.btn-danger:hover,
+.btn-default:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Modal Body Icon Animation */
+.modal-body i {
+  animation: pulseIcon 1s infinite alternate;
+}
+
+@keyframes pulseIcon {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.15);
+  }
+}
+    
+    
+      /************************* employee profile */
+      
+/* Full page clean premium background */
+.welcome-body {
+    background: linear-gradient(135deg, #f1f4f9, #d6e0f5);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Center container */
+.welcome-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Premium card UI */
+.welcome-box {
+    background: #ffffff;
+    padding: 40px 55px;
+    border-radius: 18px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    animation: fadeSlide 0.6s ease-out;
+}
+
+.employee-info {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Professional heading */
+.welcome-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2d2d2d;
+    margin-bottom: 15px;
+}
+
+/* Sub text */
+.welcome-text {
+    font-size: 18px;
+    color: #4a4a4a;
+}
+
+/* Smooth animation */
+@keyframes fadeSlide {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+      
+      /************************* end employee profile */
+    
+   
